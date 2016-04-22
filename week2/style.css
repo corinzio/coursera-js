@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+#header {
+	font-size: 1.75em;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+@media screen and (min-width: 992px){
+.box, .box2, .box3{
+	width: 32%;
+	background-color: linen;
+	position: relative;
+	padding: 10px;
+	border: 3px solid black;
+	margin: 5px 5px;
+	float:left;
+	clear: none;
+	padding-right: 0px;	
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+.box, .box2{
+	width: 48%;
+	background-color: lightblue;
+	position: relative;
+	padding: 10px;
+	border: 3px solid black;
+	margin: 5px 5px;
+	float:left;
+	clear: none;
+	padding-right: 0px;	
+}
+
+.box2{
+	width:48%;
+	background-color: lightblue;
+	position: relative;
+	padding: 10px;
+	border: 3px solid black;
+	margin: 5px 5px;
+	float:right;
+	clear: none;
+	padding-right: 0px;	
+}
+.box3{
+	background-color: lightblue;
+	position: relative;
+	padding: 10px;
+	border: 3px solid black;
+	margin: 5px 5px;
+	clear: both;
+	padding-right: 0px;	
+	width: auto;
+}
+}
+
+@media screen and (max-width: 767px){
+.box, .box2, .box3{
+	background-color: green;
+	position: relative;
+	padding: 10px;
+	border: 3px solid black;
+	margin: 5px 5px;
+	clear: both;
+	padding-right: 0px;	
+}
+}
+
+.title {
+ position: absolute;
+ top:0px;
+ right:0px;
+ width: 100px;
+ font-size: 1.25em;
+ background-color: gray;
+ padding-left: 20px;
+ padding-right:20px;
+ margin-bottom: 5px;
+ margin-right:0px;
+ margin-top:0px;
+ border: 1px solid black
+}
+
+.content {
+	margin-top: 1.25em;
+	position: relative;
+	clear: both;
+	padding-left: 10px 0px;
+}
+
+.box .title{
+	background-color: yellow;
+	color: black;
+}
+
+.box2 .title{
+	background-color: red;
+	color: white;
+}
+
+.box3 .title{
+	background-color: PowderBlue;
+	color: black;
+}
+
+#wrapper {
+	position: relative;
+	margin: auto;
+	padding: auto;
+	float: left;
+}
