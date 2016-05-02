@@ -116,8 +116,8 @@ function buildAndShowHomeHTML (categories) {
       // it into the home html snippet.
       // 
       // var homeHtmlToInsertIntoMainPage = ....
-      var sub = '{{randomCategoryShortName}}';
-	  var data = insertProperty(homeHtml,sub,cat);
+      var sub = 'randomCategoryShortName';
+	  var data = insertProperty(homeHtml,sub,"'" + cat.short_name + "'");
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
